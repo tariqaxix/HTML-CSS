@@ -1,0 +1,77 @@
+body {
+  background: url(../images/celeb.jpg);
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+}
+
+#container {
+  width: 600px;
+  height: auto;
+  margin: 100px auto;
+  overflow: hidden;
+}
+
+.bubble {
+  line-height: 0;
+}
+
+.bubble img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#info,
+#contact {
+  padding: 30px;
+}
+
+#info {
+  background: #b6b1b8;
+}
+
+#contact {
+  background: rgb(234, 229, 229);
+  height: 300px;
+}
+
+#info img {
+  width: 300px;
+  height: 300px;
+  float: right;
+  padding: 20px;
+  border-radius: 300px;
+}
+
+#contact img {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  float: left;
+  border-radius: 300px;
+}
+
+h1,
+h2 {
+  font-family: "Lobster";
+  color: rgb(112, 134, 205);
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background-color: #b6b1b8;
+  font-size: 1.3rem;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+a {
+  color: rgb(30, 68, 195);
+  text-decoration: none;
+}

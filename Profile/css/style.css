@@ -1,0 +1,42 @@
+body {
+  background-position: center;
+  background: url(../images/10228563-100039261309_1-s5-v1.png);
+  background-position-x: right;
+  background-repeat: no-repeat;
+}
+
+#container {
+  background-color: aqua;
+  width: 500px;
+  padding: 20px;
+}
+
+h1 {
+  font: optional;
+  font-size: 70px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+  font-size: 20px;
+  background-color: rgb(54, 181, 111);
+  color: 000000;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+p {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+a {
+  size: 10px;
+  color: rgb(182, 25, 25);
+  text-decoration: none;
+}
+
+img {
+  max-width: 40px;
+  padding-left: 5px;
+}
